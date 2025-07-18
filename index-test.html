@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Yepic Test Widget</title>
+    <link rel="stylesheet" href="https://studio.yepic.ai/widget/style.css">
+    <script src="https://studio.yepic.ai/widget/script.js"></script>
+  </head>
+  <body>
+    <h1 style="text-align:center; margin-top:50px;">Yepic Widget Test</h1>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        initYepicChatWidget({
+          url: 'https://studio.yepic.ai/video-agents/avatars/embed/b71e5dba062a4c65a94d47f1d7b07bcd?key=demo1234567890demo&type=widget',
+          bubbleIconVariant: 'first',
+          bubbleBackgroundColor: '#FF5733',
+          bubbleIconColor: '#ffffff',
+          darkMode: false,
+          bubbleIconUrl: '',
+          bubbleIconCustom: false,
+          bubbleIconSide: 'right',
+          customWidgetTrigger: ''
+        });
+      });
+    </script>
+  </body>
+</html>
